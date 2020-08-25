@@ -10,6 +10,39 @@
 	  - Blueprint for Objects
 	  - Properties and Methods
 	  - Can be create with the "new" keyword
+
+	  ```javascript
+		// class Person {
+		//     name = 'Max';
+
+		//     constructor() {
+		//         this.age = 30;
+		//     }
+
+		//     greet() {
+		//         console.log('Hi, I am ' + this.name + ' and I am ' + this.age + ' years old.');
+		//     }
+		// }
+
+		// Constructor Function
+		function Person() {
+
+			// this = {} // Effectively happening with "new", behind the scenes
+
+			this.age = 30;
+			this.name = "Max";
+			this.greet = function() {
+				console.log('Hi, I am ' + this.name + ' and I am ' + this.age + ' years old.');
+			};
+
+			// return this; // Effectively happening with "new", behind the scenes
+		}
+
+		const person = new Person(); // No "return" is necessary, "new" handles that.
+
+		person.greet();
+	  ```
+
 	- [ ] 267 03 Constructor Functions vs Classes & Understanding "new" | 04:17  
 	- [ ] 268 04 Introducing Prototypes | 16:46  
 	- [ ] 269 05 Prototypes - Summary | 00:59  
