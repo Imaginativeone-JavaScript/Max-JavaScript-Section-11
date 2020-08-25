@@ -2,6 +2,9 @@
 	- [ ] 265 01 Module Introduction | 01:34
 	  - The "class" feature/keyword is relatively new
 	  - How we did classes in the past
+	  - What happens behind the scenes of classes and objects?
+	  - Constructor functions (without classes)
+	  - Prototypes and Prototypical Inheritance
 	- [ ] 266 02 Introducing Constructor Functions | 04:02  
 	- [ ] 267 03 Constructor Functions vs Classes & Understanding "new" | 04:17  
 	- [ ] 268 04 Introducing Prototypes | 16:46  
