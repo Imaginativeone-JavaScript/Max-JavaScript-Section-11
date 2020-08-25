@@ -9,7 +9,7 @@
 	  - Constructor Functions (instead of classes)
 	  - Blueprint for Objects
 	  - Properties and Methods
-	  - Can be create with the "new" keyword
+	  - Can be created with the "new" keyword
 
 	  ```javascript
 		// class Person {
