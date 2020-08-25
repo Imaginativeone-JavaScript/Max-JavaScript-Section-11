@@ -6,6 +6,10 @@
 	  - Constructor functions (without classes)
 	  - Prototypes and Prototypical Inheritance
 	- [ ] 266 02 Introducing Constructor Functions | 04:02  
+	  - Constructor Functions (instead of classes)
+	  - Blueprint for Objects
+	  - Properties and Methods
+	  - Can be create with the "new" keyword
 	- [ ] 267 03 Constructor Functions vs Classes & Understanding "new" | 04:17  
 	- [ ] 268 04 Introducing Prototypes | 16:46  
 	- [ ] 269 05 Prototypes - Summary | 00:59  
