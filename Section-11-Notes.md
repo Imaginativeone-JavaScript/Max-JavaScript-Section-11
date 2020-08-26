@@ -92,5 +92,6 @@
 	  - Changing the prototype of an existing object
 	  - getPrototypeOf()
 	  - setPrototypeOf()
+	  - Object.create() // Parameter is set as a prototype
 	- [ ] 276 12 Wrap Up | 02:49
 	- [ ] 277 13 Useful Resources & Links | 00:09
