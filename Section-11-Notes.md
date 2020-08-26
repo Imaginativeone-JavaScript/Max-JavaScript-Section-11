@@ -90,5 +90,7 @@
 	- [ ] 274 10 Built-in Prototypes in JavaScript | 02:12
 	- [ ] 275 11 Setting & Getting Prototypes | 10:58
 	  - Changing the prototype of an existing object
-	- [ ] 276 12 Wrap Up | 02:49  
+	  - getPrototypeOf()
+	  - setPrototypeOf()
+	- [ ] 276 12 Wrap Up | 02:49
 	- [ ] 277 13 Useful Resources & Links | 00:09
