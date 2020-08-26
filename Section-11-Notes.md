@@ -53,10 +53,42 @@
 	  - I can access various properties in the prototype hierarchy
 	  - The prototype chain does not end with my default prototype
 	  - The fallback object of ALL OBJECTS is Object.prototype, NOT Object.
-	- [ ] *** ** Constructor Functions & Prototypes 4 questions  
-	- [ ] 272 08 Classes & Prototypes | 05:24  
-	- [ ] 273 09 Methods in Classes & In Constructors | 10:16  
-	- [ ] 274 10 Built-in Prototypes in JavaScript | 02:12  
-	- [ ] 275 11 Setting & Getting Prototypes | 10:58  
+	    - This is where the prototype chain ends.
+	- [ ] 272 08 Classes & Prototypes | 05:24
+	- [ ] 273 09 Methods in Classes & In Constructors | 10:16
+	
+	  ```javascript
+	  class AgedPerson {
+	    printAge() {
+	      console.log(this.age);
+	    }
+	  }
+	  
+	  class Person extends AgedPerson {
+	    name = 'Max';
+	    
+	    constructor() {
+	      super();
+	      this.age = 30;
+	      // this.name = 'Max' // is equivalent to the name property. However, METHODS are different
+	    }
+	    
+	    // Here, one function is shared across all instances.
+	    greet() {
+	      console.log('Hi, I am ' + this.name + ' and I am ' + this.age + ' years old.');
+	    }
+	  }
+	  ```
+	  The method is part of the prototype.
+	  
+	  ```javascript
+	    Person.prototype.greet() = function() {
+	      console.log('Hi, I am ' + this.name + ' and I am ' + this.age + ' years old.');
+	    }
+	  ```
+	  
+	- [ ] 274 10 Built-in Prototypes in JavaScript | 02:12
+	- [ ] 275 11 Setting & Getting Prototypes | 10:58
+	  - Changing the prototype of an existing object
 	- [ ] 276 12 Wrap Up | 02:49  
 	- [ ] 277 13 Useful Resources & Links | 00:09
