@@ -44,10 +44,15 @@
 	  ```
 
 	- [ ] 267 03 Constructor Functions vs Classes & Understanding "new" | 04:17  
-	- [ ] 268 04 Introducing Prototypes | 16:46  
-	- [ ] 269 05 Prototypes - Summary | 00:59  
-	- [ ] 270 06 Working with Prototypes | 05:19  
-	- [ ] 271 07 The Prototype Chain and the Global "Object" | 08:26  
+	- [ ] 268 04 Introducing Prototypes | 16:46
+	  - "extends"
+	- [ ] 269 05 Prototypes - Summary | 00:59
+	- [ ] 270 06 Working with Prototypes | 05:19
+	  - super() creates the Base Class first, then make the extending Object a prototype
+	- [ ] 271 07 The Prototype Chain and the Global "Object" | 08:26
+	  - I can access various properties in the prototype hierarchy
+	  - The prototype chain does not end with my default prototype
+	  - The fallback object of ALL OBJECTS is Object.prototype, NOT Object.
 	- [ ] *** ** Constructor Functions & Prototypes 4 questions  
 	- [ ] 272 08 Classes & Prototypes | 05:24  
 	- [ ] 273 09 Methods in Classes & In Constructors | 10:16  
